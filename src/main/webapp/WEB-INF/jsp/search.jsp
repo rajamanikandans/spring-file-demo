@@ -17,9 +17,7 @@
                 <tr>
                     <td>Original Name:<input type="text" name="fileName" size="15" /></td>
                 </tr>
-                <tr>
-                    <td>Size:<input type="text" name="fileSize" size="15" /></td>
-                </tr>
+               
                 <tr>
                     <td align="center"><input type="submit" value="Search File" /></td>
                 </tr>
