@@ -14,13 +14,15 @@
 		</tr>
 	
 	<c:if test="${not empty fileDetailList}">
-	<tr>
+	
 			<c:forEach var="listValue" items="${fileDetailList}">
+			<tr>
 				<td>${listValue.name}</td>
 				<td>${listValue.fileName}</td>
 				<td>${listValue.fileSize}</td>
+			</tr>
 			</c:forEach>
-	</tr>
+	
 	</c:if>
 	</table>
 	<br/>
